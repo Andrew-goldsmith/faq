@@ -1,0 +1,40 @@
+.has-error {
+  background: #fceeee;
+  border-color: #b74848;
+}
+.text-danger {
+  font-size: 13px;
+  color: #b74848;
+}
+.text-success {
+  text-align: left;
+  margin: 10px 0;
+  background: #66b266;
+  color: #fff;
+  border-radius: 3px;
+  padding: 3px 5px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+}
+.panel-title a {
+  background: #f2f2f2;
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  display: block;
+  padding: 10px 15px;
+  color: #1d1d1d;
+  position: relative;
+  border-bottom: 1px solid #969696;
+  transition: .3s;
+}
+.panel-title a:hover {
+  color: #1d1d1d;
+  border-color: #f1d1bc;
+}
+.panel-body {
+  border: none !important;
+}
